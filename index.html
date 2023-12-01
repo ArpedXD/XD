@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <title>Account System</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+        <button class="gobac" onclick="gobac()">Go back to login?</button>
+            <div class="forms" id="forms1">
+                <h1 class="login">Login</h1>
+                    <input type="text" placeholder="Username" class="Username" id="loginus">
+                    <input type="Password" placeholder="Password" class="Password" id="loginpa">
+                    <input type="submit" class="Submit" onclick="login()">
+                <h1 class="signup"> Signup</h1>
+                    <input type="text" placeholder="Username" class="username2" id="signupus">
+                    <input type="Password" placeholder="Password" class="password2" id="signuppa">
+                    <input type="submit" class="submit2" onclick="signup()">
+                <div class="block" id="block">
+                    <h1 id="textpage">Welcome back!</h2>
+                    <p class="Loginp" id="page">Good day!</br> Are you new?</br>Sign up now!</p>
+                    <button class="doing" id="doing" onclick="dosomething()">Signup</button>
+                </div>
+            </div>
+            <div class="Profile" id="pfp1">
+                <div class="upperp">
+                    <div class="pfp" id="picture">
+
+                    </div>
+                    <div class="pfpus" id="pfpus"> Username</div>
+                    <div class="randomid" id="rndm">RandomGenerated-Id:</div>
+                </div>
+                <div class="belowp">
+                    <button class="Menu" id="Menu" onclick="Menu()">Menu</button>
+                    <div class="mbar" id="mbar"></div>
+                    </div>
+
+                </div>
+            </div>
+        <script type="text/javascript" src="forms.js"></script>
+    </body>
+</html>

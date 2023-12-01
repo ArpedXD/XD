@@ -1,0 +1,267 @@
+
+
+body{
+    background-image: url('rick.jpeg');
+    background-size:cover;
+}
+
+.login{
+    color:white;
+    margin-left:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.forms{
+    height:300px;
+    width: 600px;
+    box-shadow:20px 20px 50px rgba(180, 180, 180, 0.5);
+    background-color:rgba(255,255,255,0.1);
+    backdrop-filter:blur(5px);
+    border-top:1px solid rgba(255,255,255,0.1);
+    border-left:1px solid rgba(255,255,255,0.1);
+    border-radius:30px;
+    position:absolute;
+    left:350px;
+    top:100px; /* originally 100px, it is -300px to edit other menus.*/
+    display:flex;
+    flex-direction:column;
+    transition:2s;
+}
+
+.Username{
+    height:40px;
+    width:200px;
+    border-radius:10px;
+    border:1px solid black;
+    position:relative;
+    margin-top:5px;
+    left:10px;
+    background-color:transparent;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition:1s;
+}
+
+.Password{
+    color:white;
+    height:40px;
+    width:200px;
+    border-radius:10px;
+    border:1px solid black;
+    position:relative;
+    margin-top:5px;
+    left:10px;
+    background-color:transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Submit{
+    height:30px;
+    width:70px;
+    border-radius:13px;
+    border:1px solid #00ffff;
+    margin-top:10px;
+    position:relative;
+    left:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+    transition:0.5s;
+    background-color:transparent;
+    color:#00ffff;
+    box-shadow:0px 0px 30px #00ffff;
+}
+
+.Submit:hover{
+    background-color:#00ffff;
+    color:white;
+}
+
+.block{
+    position:absolute;
+    height:100%;
+    width:50%;
+    background:linear-gradient(to bottom,rgb(25, 25, 167),rgb(255,255,255));
+    right:0px;
+    left:300px;
+    border-radius:30px;
+    border-bottom-left-radius: 100px;
+    transition:1s;
+}
+
+.Loginp{
+    text-align:center;
+    font-size:19px;
+}
+
+.doing{
+    position:absolute;
+    left:110px;
+    height:30px;
+    width:70px;
+    border-radius:5px;
+    border:0.5px solid black;
+    cursor:pointer;
+    font-size:16px;
+    transition:1s;
+}
+
+.doing:hover{
+    height:40px;
+    width:80px;
+    
+}
+
+.username2{
+    height:40px;
+    width:200px;
+    border-radius:10px;
+    border:1px solid black;
+    position:absolute;
+    right:70px;
+    top:70px;
+    background-color:transparent;
+
+}
+
+.password2{
+    height:40px;
+    width:200px;
+    border-radius:10px;
+    border:1px solid black;
+    position:absolute;
+    right:70px;
+    margin-top:120px;
+    background-color:transparent;
+}
+
+.submit2{
+    height:30px;
+    width:70px;
+    border-radius:13px;
+    border:1px solid #00ffff;
+    margin-top:170px;
+    position:absolute;
+    right:200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor:pointer;
+    transition:0.5s;
+    color:#00ffff;
+    background-color:transparent;
+    box-shadow:0px 0px 30px #00ffff;
+}
+
+.submit2:hover{
+    background-color:#00ffff;
+    color:white;
+}
+
+
+#textpage{
+    text-align:Center;
+}
+
+.signup{
+    position:absolute;
+    right:150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Profile{
+    position:absolute;
+    left:245px;
+    box-shadow:5px 5px 30px rgb(83, 83, 83);
+    top:-600px; /*50px to see and -600 to not see*/
+    height:500px;
+    width:800px;
+    background-color:rgba(255,255,255,0.3);
+    border-radius:30px;
+    backdrop-filter: blur(20px);
+    transition:2s;
+}
+
+.upperp{
+    z-index:-2;
+    position:absolute;
+    width:740px;
+    height:100px;
+    background-color:rgba(190, 190, 190, 0.6);
+    border-radius:30px;
+    left:30px;
+    top:20px;
+}
+
+.belowp{
+    z-index:-2;
+    position:absolute;
+    width:740px;
+    height:320px;
+    background-color:rgba(190, 190, 190, 0.6);
+    border-radius:10px;
+    left:30px;
+    top:145px;
+}
+
+.pfp{
+    background-image:url('unknown.jpg');
+    background-position:center;
+    background-color:white;
+    position:absolute;
+    left:30px;
+    top:10px;
+    height:80px;
+    width:80px;
+    border-radius:100px;
+    background-size:cover;
+    cursor:pointer;
+    transition:1s;
+}
+
+.pfpus{
+    position:absolute;
+    left:129px;
+    top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    cursor:pointer;
+}
+
+.randomid{
+    position:absolute;
+    left:130px;
+    top:40px;
+}
+
+.gobac{
+    padding:10px;
+    border-radius:5px;
+    border:1px solid black;
+    background-color:transparent;
+    color:white;
+    cursor:pointer;
+    position:absolute;
+    left:30px;
+    top:20px;
+}
+
+.Menu{
+    background-color:transparent;
+    border-radius:5px;
+    border:0px;
+    margin:5px;
+    cursor:pointer;
+    transition:0.5s;
+    font-size:15px; 
+}
+
+.Menu:hover{
+    font-size:20px;
+}
+
+.mbar{
+    position:absolute;
+    background-color:rgb(187, 187, 187);
+    border-radius:10px;
+    height:290px;
+    top:30px;
+    Width:0px; /*130px for maximum size*/
+    transition: 1s ease-in-out; 
+}
